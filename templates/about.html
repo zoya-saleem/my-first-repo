@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('home')}}">Home</a></li>
+                    <li><a href="{{ url_for('membership')}}">Membership</a></li>
+                    <li><a href="{{ url_for('about')}}">About Us</a></li>
+                    
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+<div class="about-us-section">
+        <div class="content">
+            <h1>About Us</h1>
+            <p>Welcome to our gym! We provide the best fitness training and equipment to help you achieve your goals. Whether you are
+             looking to lose weight, gain muscle, or improve your overall fitness, our expert trainers are here to guide you every step
+              of the way. Join us and become the best version of yourself!</p>
+            <p>Our gym is equipped with state-of-the-art equipment, and our trainers are experienced in various fitness disciplines. We
+             believe in creating a supportive and motivating environment for all our members.</p>
+        </div>
+    </div>
+</body>
+</html>

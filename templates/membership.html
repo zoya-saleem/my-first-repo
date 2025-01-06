@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('home')}}">Home</a><li>
+                    <li><a href="{{ url_for('membership')}}">Membership</a></li>
+                    <li><a href="{{ url_for('about')}}">About Us</a><li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="membership-section">
+            <div class="container">
+                <h2>Choose Your Plan</h2>
+                <p>Explore our membership plans and start your fitness journey today.</p>
+                <div class="plans">
+                    <div class="plan">
+                        <h3>Basic Plan</h3>
+                        <p>$30/month</p>
+                        <button>Join Now</button>
+                    </div>
+                    <div class="plan">
+                        <h3>Standard Plan</h3>
+                        <p>$50/month</p>
+                        <button>Join Now</button>
+                    </div>
+                    <div class="plan">
+                        <h3>Premium Plan</h3>
+                        <p>$80/month</p>
+                        <button>Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gym Fitness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

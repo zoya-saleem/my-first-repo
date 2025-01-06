@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .header1
+  {
+      background-image:url("../images/img.jpg");
+      width:100%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center ;
+      background-repeat: no-repeat;
+      border-top: 0.5rem solid  #ec4141; 
+      border-bottom: 0.5rem solid  #ec4141;
+  }
+  nav{
+      width: 100vw;
+      height: 80px;zz
+      display: flex;
+  }
+  nav .logo
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:40%;
+      color: white;
+      height: 100px;
+      font-family: "Quicksand",sans-serif;
+      margin-right: 90px; 
+        }
+      nav .logo h1  
+          {
+          font-size: 55px;
+        }
+        nav .logo h1  span { 
+          color:#ec4141 ;
+          margin-left: 5px;
+        }
+        nav ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width:50%;
+          height: 90px;
+        }
+        nav ul a  
+        {
+          padding: 0.9rem 1.4rem;
+          margin: 0.3px;
+          text-decoration: none;
+          color: white;
+          font-size: 24px; 
+          font-family: "Quicksand",sans-serif;
+          text-transform: uppercase;
+          } 
+          nav ul a:hover{
+            color: #ec4141;
+            border-bottom:2px solid #ec4141 ;
+           } 
+          nav ul li {
+            list-style: none;
+          }
+          .active {
+            color:#ec4141;          
+            border-bottom: 2px solid #ec4141;
+          }       
+          .header-container {
+            border: 1px solid red;
+            width: 40%;
+            position: relative;
+            top: 50%;
+            left: 2rem;
+          }
+          .header-container h1{
+            color: white;
+            font-family: "Quicksand",sans-serif;
+            font-size: 50px;
+          }
+          .header-container h1 .border-bottom {
+            border-bottom: 2px solid #ec4141;
+  
+          }
+          .text-primary{
+             color:#ec4141;
+          }
+          .header-container p{
+            width: 80%;
+            margin-top: 2rem;
+            color: white;
+            font-family: "Quicksand",sans-serif;
+          }
+          .btn {
+            padding: 0.5rem 1.5rem;
+            outline: none;
+            border: 1px solid black;
+            cursor: pointer;
+          }
+          .btn-primary{
+            font-size: 20px;
+            font-family: "Quicksand",sans-serif;
+            letter-spacing: 2px;
+            margin-top: 0.5rem;
+            background-color: #ec4141;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 5px;
+            border: 1px solid #ec4141;
+           }
+          .btn-primary:hover{
+            background-color: transparent;
+          }
+          /* General Styles */
+          .membership-section {
+              padding: 40px 20px;
+              text-align: center;
+              background-color: #fff;
+          }
+          
+          .membership-section .container {
+              max-width: 800px;
+              margin: auto;
+          }
+          
+          .membership-section h2 {
+              font-size: 28px;
+              margin-bottom: 10px;
+              color: #222;
+          }
+          
+          .membership-section p {
+              margin-bottom: 20px;
+              color: #555;
+              line-height: 1.6;
+          }
+          
+          .plans {
+              display: flex;
+              justify-content: space-around;
+              gap: 20px;
+              flex-wrap: wrap;
+          }
+          
+          .plan {
+              background-color: #f9f9f9;
+              border: 1px solid #ddd;
+              padding: 20px;
+              border-radius: 8px;
+              width: 200px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              transition: transform 0.3s ease;
+          }
+          
+          .plan:hover {
+              transform: translateY(-10px);
+          }
+          
+          .plan h3 {
+              color: #f45d22;
+              margin-bottom: 10px;
+          }
+          
+          .plan p {
+              font-size: 18px;
+              margin-bottom: 15px;
+          }
+          
+          .plan button {
+              background-color: 
+          #f45d22;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              font-size: 16px;
+              transition: background 0.3s ease;
+          }
+          
+          .plan button:hover {
+              background-color: #d13d10;
+          }
+          .about-us-section {
+            background-image: url("../images/img2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            overflow: hidden;
+        }
+        
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
